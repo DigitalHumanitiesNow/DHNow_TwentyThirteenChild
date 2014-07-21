@@ -1,0 +1,615 @@
+/*
+Theme Name:     Twenty Twelve DHNow Child
+Theme URI:      http://example.com/
+Description:    Child theme for the Twenty Twelve theme
+Author:         Sasha Hoffman
+Author URI:     http://example.com/about/
+Template:       twentytwelve                             
+Version:        0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+/* General Theme Rules */
+body {
+	font-size: 15px;
+}
+
+img.alignleft {
+	margin: 5px 20px 12px 0;
+}
+
+.site-content a {
+	color: #4671aa;
+	text-decoration: none;
+}
+
+.site-content a:hover {
+	color: #114b99;
+	text-decoration: underline;
+}
+
+.site-content a:visited {
+	color: #4671aa !important;
+	text-decoration: none;
+}
+
+.entry-content p {
+	margin: 0 0 15px;
+}
+
+.entry-content blockquote {
+	margin-bottom: 0;
+	padding: 9px 24px 24px 24px;
+}
+
+.site-content article {
+/*	border-bottom: 4px double #ededed; */
+	border-bottom: none;
+	margin-bottom: 25px;
+	padding-bottom: 24px;
+	padding-bottom: 1.714285714rem;
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+
+.entry-content h2 {
+	color: #000;
+	font-size: 20px;
+	font-family: 'Futura', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	margin: 20px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+}
+
+.entry-content h6 {
+	color: #000;
+	font-size: 20px;
+	font-family: 'Futura', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	margin: 25px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+}
+
+.entry-content li {
+	list-style-type: circle;
+	padding-left: 5px;
+	margin: 0;
+}
+
+.entry-content ul {
+	padding-left: 20px;
+}
+
+/* Site Header Format */
+.site-header {
+	padding: 24px 0 10px 0;
+}
+
+.site-header h2 {
+	text-align: right;
+	font-size: 1.1rem;
+	color: #114b99;
+	padding-right: 50px;
+}
+
+.header-image {
+	margin-top: 0;
+}
+
+img.header-image {
+	border-radius: none;
+	box-shadow: none;
+}
+
+.header_meta {
+	padding-bottom: 15px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+/* Post Templates */
+.entry-title {
+	font-size: 22px !important;
+	font-size: 1.428571429rem;
+	line-height: 1.2;
+	font-weight: bold;
+	font-family: 'Futura', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	color: #A63123;
+}
+
+.entry-title2 {
+	font-size: 22px !important;
+	font-size: 1.428571429rem;
+	line-height: 1.2;
+	font-weight: bold;
+	position: relative;
+	top: -4em;
+	background-color: rgba(255, 255, 255, 0.8); 
+  	padding: .3em;
+	overflow: auto;
+	font-family: 'Futura', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	color: #A63123;
+}
+
+img.wp-post-image {
+	height: 300px;
+	width: 100%;
+}
+
+.entry-header2 {
+	margin-bottom: 0;
+	height: 300px;
+	width: 100%;
+}
+
+.entry-header3 {
+	height: 250px;
+	width: 300px;
+}
+
+.editors {
+	line-height: 1.714285714;
+	margin-top: 30px;
+	border-top: 1px solid #ededed;
+	padding-top: 30px;
+}
+
+@media only screen 
+and (max-width:1015px) {
+   .entry-title2 {
+	height: 3.4em; 
+  	overflow: hidden;
+   }
+}
+
+@media only screen
+and (max-width:750px) {
+   .entry-title2 {
+	height: 3.4em; 
+  	overflow: hidden;
+   }
+}
+
+@media only screen
+and (max-width:640px) {
+   .entry-title2 {
+	height: 3.4em; 
+  	overflow: hidden;
+   }
+}
+
+@media only screen
+and (max-width:600px) {
+   .entry-title2 {
+	height: 3.4em; 
+  	overflow: hidden;
+   }
+}
+
+@media only screen
+and (max-width:500px) {
+   .entry-title2 {
+	height: 3.4em; 
+  	overflow: hidden;
+   }
+}
+
+@media only screen
+and (max-width:435px) {
+   .entry-title2 {
+	height: 3.4em; 
+  	overflow: hidden;
+   }
+}
+
+/* Full-Width Template */
+body.full-width .site-content {
+	margin: 0;
+}
+
+body.full-width .entry-header {
+	margin-bottom: 0;
+	height: 0;
+}
+
+/* Archive Pages */
+.archive-title {
+	font-size: 22px !important;
+	font-size: 1.428571429rem;
+	line-height: 1.3;
+	font-weight: bold;
+	font-family: 'Futura', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	color: #A63123;
+}
+
+/* Editors-at-Large Corner Template */
+#main {
+	width: 100%;
+}
+
+#left_sidebar {
+	margin: 24px 0 0;
+	margin: 1.714285714rem 0 0;
+}
+
+#left_sidebar ul {
+	padding-left: 20px;
+}
+
+#left_sidebar li {
+	list-style-type: circle;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+
+#content2 {
+	margin: 24px 0 0;
+	margin: 1.714285714rem 0 0;
+}
+
+h3.sidebar-title {
+	color: #A63123;
+	font-size: 18px;
+	margin-bottom: 25px;
+	font-family: 'Futura', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+@media screen and (min-width: 600px) {
+	#left_sidebar {
+		float: left;
+		width: 24%;
+		margin-right: 2%;
+	}
+
+	#content2 {
+		width: 71%;
+		float: right;
+		margin-right: 3%;
+	}
+}
+
+/* Nav Bar */
+.main-navigation {
+	margin-top: 35px;
+}
+
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+	text-align: right;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.main-navigation li a {
+	color: #000;
+}
+
+.main-navigation li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+.main-navigation li a:visited {
+	color: #000 !important;
+}
+
+.main-navigation .current-menu-item > a,
+.main-navigation .current-menu-ancestor > a,
+.main-navigation .current_page_item > a,
+.main-navigation .current_page_ancestor > a {
+	color: #000;
+	font-weight: bold;
+}
+
+.main-navigation li ul li a {
+	font-size: 12px;
+	width: auto;
+	padding: 5px 30px;
+	text-align: center;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+/* Widgets */
+.widget-title {
+	color: #A63123;
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-family: 'Futura', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+.widget-area .widget h3 {
+	margin-bottom: 0;
+}
+
+.widget-area .widget a {
+	color: #4671aa;
+	text-decoration: none;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+
+.widget-area .widget a:hover {
+	color: #114b99 !important;
+	text-decoration: underline;
+}
+
+.widget-area .widget a:visited {
+	color: #4671aa;
+	text-decoration: none;
+}
+
+.widget-area .widget ul ul {
+	margin-left: 20px;
+}
+
+.widget-area .widget li {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+.rssfeed {
+	background:url('http://pressfwd.chnm.org/dhnowtest2/wp-content/uploads/sites/9/2013/10/rss-icon-16x16.jpg') no-repeat;
+	background-position: 0 25px;
+	padding-left: 25px;
+	padding-top: 20px;
+}
+
+.rssfeed2 {
+	background:url('http://pressfwd.chnm.org/dhnowtest2/wp-content/uploads/sites/9/2013/10/rss-icon-16x16.jpg') no-repeat;
+	background-position: left;
+	padding-left: 25px;
+}
+
+/* Footer Widgets */
+#footerwidgets {
+ 	width:100%;
+ 	border-top: 1px solid #ededed;
+	padding-top: 15px;
+}
+
+#footerwidgets p  {
+ 	padding-bottom: .75em;
+ 	font-size:100%;
+ 	line-height:1.1em;
+}
+
+#footer-left {
+	width:30%;
+ 	float:left;
+ 	padding-right:2.5%;
+}
+
+#footer-middle {
+ 	width:30%;
+ 	float:left;
+ 	padding-left:2.5%;
+ 	padding-right: 2.5%;
+}
+
+#footer-right {
+ 	width:30%;
+ 	float:right;
+ 	padding-left:2.5%;
+} 
+
+.footer_list {
+	padding-bottom: 20px;
+}
+
+#footerwidgets a {
+	color: #4671aa !important;
+	text-decoration: none !important;
+}
+
+#footerwidgets a:hover {
+	color: #114b99 !important;
+	text-decoration: underline !important;
+}
+
+#footerwidgets a:visited {
+	color: #4671aa !important;
+	text-decoration: none;
+}
+
+@media only screen
+and (max-width:650px) {
+
+   #footer-right, #footer-middle, #footer-left {
+     float:none;
+     padding-left:0;
+     padding-right:0;
+     padding-top:1em;
+     width:100%;
+   }
+}
+
+.the-social-link {
+  text-align:center;
+}
+
+.the-social-link img {
+  padding:5px;
+}
+
+/* Smooth Slider */
+@media only screen
+and (max-width:950px) {
+
+   .smooth_slider_thumbnail {
+    float:left;
+    width: 35% !important;
+   }
+}
+
+/*@media only screen
+and (max-width:770px) {
+
+   .smooth_slider_thumbnail {
+    float:none;
+    width: 30% !important;
+   }
+}
+*/
+.smooth_slider {
+	width: 100% !important;
+	height: 280px;
+	background-color:#ffffff;
+	border: none !important;
+	padding: 0 20px 20px 20px;
+	margin-bottom: 40px;
+}
+
+.smooth_slider .sldr_title {
+	font-family:Arial,Helvetica,sans-serif, Arial, Helvetica, sans-serif;
+	font-size:26px;
+	font-weight:bold;
+	font-style:normal;
+	color:#000000;
+} 
+
+.smooth_slider .smooth_slideri {
+	width: 100%;
+	margin:0px 0px 0px 0px;
+} 
+
+.smooth_slider .smooth_slider_thumbnail {
+	float: right;
+	margin: 0 0px 0 25px !important;
+	max-height: 225px;
+	border: 0px solid #000000;
+	width: 39%;
+} 
+
+.smooth_slider .smooth_slideri h2 {
+	clear: none;
+	line-height: 30px !important;
+	font-family: 'Futura', sans-serif !important;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight:bold;
+	font-style:normal;
+	color:#4671aa;
+	width: 60%;
+} 
+
+.smooth_slider .smooth_slideri h2 a {
+	color:#4671aa; 
+	font-weight:bold;
+	font-style:normal;
+} 
+
+.smooth_slider .smooth_slideri h2 a:hover {
+	text-decoration: underline !important;
+	color: #114b99 !important;
+}
+
+.smooth_slider .smooth_slideri span {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+	color:#333333;
+	line-height: 1.714285714;
+	margin-top: 15px;
+} 
+
+.smooth_slider .smooth_slideri p.more {
+	color:#4671aa;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+	font-size:15px;
+	margin-top:10px !important;
+} 
+.smooth_slider .smooth_next{} 
+.smooth_slider .smooth_prev{}
+
+@media only screen
+and (max-width: 570px) {
+   .smooth_slideri h2 {
+   	width: 100% !important;
+   }
+}
+
+
+/*Column Posts */
+.cp-box {
+	margin: 0 10px 20px 10px !important;
+}
+/*.cp-box ul {
+	list-style: circle !important;
+}
+*/
+.cp-box ul li {
+	margin: 0 0 5px 15px !important;
+	font-size: 14px !important;
+}
+
+.cp-box ul li a {
+	font-weight: normal !important;
+}
+
+.cp-box ul li a:hover {
+	color: #114b99 !important;
+}
+
+.cp-box h3 {
+	color: #A63123;
+	font-size: 19px;
+	font-family: 'Futura', sans-serif !important;
+	text-transform: uppercase;
+}
+
+@-moz-document url-prefix() {
+    .cp-box ul li {
+        list-style: none !important;
+        margin: 0 0 10px -5px !important;
+    }
+}
+
+@media only screen
+and (max-width:905px) {
+   .cp-box {
+    float:left;
+    width: 47% !important;
+   }
+}
+
+@media only screen
+and (max-width:600px) {
+   .cp-box {
+     float:none;
+     padding-left:0;
+     padding-right:0;
+     padding-top:1em;
+     width:100% !important;
+   }
+}
+
+/* 7/21/2014 -- This section edits the inline-gdocs styles on the schedule page.  The edited code in the plugin php files can be found in the documentation.  The styles below add a scroll bar and set the width of the outer div to auto.  It also adds some minimal styling such as borders and alternate row coloring. */
+/* The number string in the #igsv-outer-div is the spreadsheet key.  This will need to be updated both here and on the page where the plugin short code is added each time the location of the spreadsheet is changed.  (Likely for each semester). */
+
+#igsv-outer-div-11et6IfcIosco2FzLcsgOhnP5e26SXd4Demr7QL2la30 {
+	width:auto;
+	overflow:scroll;
+}
+.igsv-table td {
+	border-left: 1px #E8E8E8  solid;
+	min-width: 100px; !important
+	max-height: 70px; !important
+}
+.igsv-table tr {
+	max-height: 70px; !important
+}
+.igsv-table tr.even {
+	background-color: #F8F8F8 ;
+}
+
